@@ -1,0 +1,78 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:contentDescription="@string/card"
+    app:cardBackgroundColor="@color/primary"
+    app:cardCornerRadius="16dp"
+    android:id="@+id/progressBar_card">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:elevation="40dp"
+        android:layout_gravity="end"
+        app:srcCompat="@drawable/progress_picture" />
+
+    <!--    app:cardElevation="10dp"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:id="@+id/progress_layout">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:contentDescription="@string/Progress_label"
+            android:text="@string/Progress_label"
+            android:textColor="@color/secondary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck"
+            android:id="@+id/progress_name"/>
+
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="125dp"
+            android:outlineAmbientShadowColor="@color/secondary"
+            android:outlineSpotShadowColor="@color/secondary"
+            android:backgroundTint="@color/secondary_lighter"
+
+            tools:targetApi="p" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:gravity="start"
+            android:textColor="@color/secondary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck"
+            android:text="@string/Progress_number"
+            android:id="@+id/progress_value"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

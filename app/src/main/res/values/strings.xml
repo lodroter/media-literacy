@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">EducationApp</string>
+    <string name="email">Email</string>
+    <string name="login">Send</string>
+    <string name="password">Password</string>
+    <string name="singup">Sign Up</string>
+    <string name="list_scroll">List of difficulties</string>
+    <string name="list_scroll_2">List of Themes</string>
+    <string name="image_list">Image in the list</string>
+    <string name="image_logo">Logo</string>
+    <string name="Progress_label">Progress</string>
+    <string name="Progress_number">Progress value</string>
+    <string name="card_diff">Difficulty</string>
+    <string name="card">Card</string>
+    <string name="card_image">Image</string>
+    <string name="card_theme">Theme</string>
+    <string name="list_item_name">Item name</string>
+    <string name="lesson_icon" />
+    <string name="test_icon" />
+    <string name="question" >"Question "</string>
+    <string name="test_picture">example</string>
+    <string name="Answer">Answer</string>
+    <string name="Answer2">Answer2</string>
+    <string name="Answer3">Answer3</string>
+    <string name="Answer4">Answer4</string>
+    <string name="item_name">Item</string>
+    <string name="notifications_switch">Zapnout notifikace</string>
+    <string name="title_notifications_picker">Kdy ma notifikace prijit?</string>
+    <string name="confirm">Potvrdit</string>
+    <string name="logout_title">Chcete se opravdu odhlasit?</string>
+    <string name="user_menu">User #1</string>
+    <string name="popup_photo_title">Nahrát fotku z</string>
+</resources>

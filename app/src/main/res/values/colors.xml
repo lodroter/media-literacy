@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="correct_green">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="Not_so_white_white">#B2B2B2</color>
+    <color name="Background_gray">#292C40</color> //3030303 292C40
+    <color name="primary">#14172D</color> //076E7E
+    <color name="secondary">#FF3152</color>
+    <color name="secondary_lighter">#EC5069</color>//F31666
+    <color name="red_alert">#BA1515</color>
+    <color name="popupgrey">#2E2E2E</color>
+</resources>

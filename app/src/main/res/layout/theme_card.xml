@@ -1,0 +1,49 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/card"
+    android:minWidth="150dp"
+    app:cardBackgroundColor="@color/primary"
+    app:cardCornerRadius="16dp"
+    android:id="@+id/theme_cardview">
+
+    <!--    app:cardElevation="10dp"-->
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/card_image"
+            android:cropToPadding="true"
+            android:maxWidth="100dp"
+            android:layout_weight="1.5"
+            android:layout_marginTop="20dp"
+            android:id="@+id/theme_card_logo"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/card_theme"
+            android:layout_weight="1"
+            android:text="@string/card_theme"
+            android:textColor="@color/secondary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/theme_name"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,52 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:contentDescription="@string/card"
+    android:minHeight="100dp"
+    android:maxHeight="150dp"
+    app:cardBackgroundColor="@color/primary"
+    app:cardCornerRadius="16dp"
+    android:layout_height="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_weight="2"
+            android:text="@string/card_theme"
+            android:textSize="20sp"
+            android:textColor="@color/secondary"
+            tools:ignore="TextContrastCheck" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:contentDescription="@string/lesson_icon"
+            app:srcCompat="@drawable/icons8_exam_64"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="@string/test_icon"
+            app:srcCompat="@drawable/icons8_study_64"
+            tools:ignore="ImageContrastCheck"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "465426997476",
+    "project_id": "eduactionapp-94227",
+    "storage_bucket": "eduactionapp-94227.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465426997476:android:c7cbd4a8823beddec64cf1",
+        "android_client_info": {
+          "package_name": "com.example.educationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465426997476-aninequ4fnmq3d6cepgl2v4qci3t9vjf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0mIUNckGDWTRwUHNz9VZQJ3cA9NkeYS8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465426997476-aninequ4fnmq3d6cepgl2v4qci3t9vjf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

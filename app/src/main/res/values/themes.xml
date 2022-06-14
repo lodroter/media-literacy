@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Popup.Quiz" parent="Theme.AppCompat.DayNight.Dialog">
+
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowBackground">@color/teal_700</item>
+        <item name="statusBarForeground">@color/Background_gray</item>
+    </style>
+
+    <style name="PrimaryTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="android:colorAccent">@color/Not_so_white_white</item>
+        <item name="android:colorControlNormal">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/Background_gray</item>
+        <item name="android:textColorPrimary">@color/Not_so_white_white</item>
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorSecondary" tools:targetApi="n_mr1">@color/secondary</item>
+    </style>
+
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/secondary</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/primary</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/Not_so_white_white</item>
+    </style>
+</resources>
